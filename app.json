@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/joke/joke",
+    "pages/textJoke/textJoke",
+    "pages/picture/picture",
+    "pages/picturejpg/picturejpg",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#206BE7",
+    "navigationBarTitleText": "笑话大全",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#206BE7",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/joke/joke",
+        "text": "文字笑话"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "text": "图片笑话"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
